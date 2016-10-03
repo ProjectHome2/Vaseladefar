@@ -33,3 +33,13 @@ fit2 <- lm(HOME2[,5] ~ HOME2[,6] + HOME2[,7] + HOME2[,8], data=HOME1)
 anova(fit1, fit2)
 
 # http://www.statmethods.net/stats/regression.html !! 
+
+hist(HOME2[,5])
+
+
+
+
+
+
+
+
